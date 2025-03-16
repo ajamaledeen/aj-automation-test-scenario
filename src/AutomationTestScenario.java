@@ -9,7 +9,6 @@ import pageObjectModels.PlaceOrderPage;
 import pageObjectModels.SearchProductPage;
 import testData.DataFile;
 
-
 public class AutomationTestScenario {
 
     public static void main(String[] args) throws InterruptedException {
