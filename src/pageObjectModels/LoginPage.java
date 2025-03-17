@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 
 public class LoginPage {
     public static WebElement signUpLoginPage(WebDriver driver) {
-        return driver.findElement(By.xpath("//a[text()='Signup / Login']"));
+        return driver.findElement(By.xpath("//a[normalize-space()='Signup / Login']"));
     }
     public static WebElement emailField(WebDriver driver) {
         return driver.findElement(By.name("email"));
